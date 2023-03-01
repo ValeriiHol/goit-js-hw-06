@@ -24,14 +24,12 @@ button {
 }
 
 .gallery {
-  list-style: none;
-  gap: 30px;
   display: flex;
   justify-content: center;
+  list-style: none;
+  gap: 30px; 
 }
 
 .picture {
-  border-radius: 10%;
   width: 400px;
-
 }

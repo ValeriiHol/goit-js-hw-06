@@ -1,5 +1,5 @@
-const rangeInput = document.querySelector('#font-size-control');
-const changeText = document.querySelector('#text');
+const rangeInput = document.querySelector('input#font-size-control');
+const changeText = document.querySelector('span#text');
 
 const textResize = () => {
   changeText.style.fontSize = `${rangeInput.value}px`;
